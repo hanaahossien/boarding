@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="ar">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/all.min.css">
+      <!-- font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+      <!-- animation -->
+      <link rel="stylesheet" href="css/animate.css">
+      <link rel="stylesheet" href="css/style.css">
+      <!-- owlcarusel -->
+      <link rel="stylesheet" type="text/css" href="css\owl.carousel.min.css">
+      <link rel="stylesheet" type="text/css" href="css\owl.theme.default.min.css">
+      <title>hotels</title>
+   </head>
+   <body>
+      <header class="shadow position-relative">
+			<div class="top">
+				<div class="container">
+					<div class="col-md-12 d-flex justify-content-between">
+						<div>
+							<a href="login.html"> <i class="fa-regular fa-user"></i> تسجيل الدخول</a>
+							<a href="http://"> <i class="fa-solid fa-globe"></i> اللغة </a>
+						</div>
+						<div>
+							<a href="http://"> <i class="fa-regular fa-envelope"></i> boarding@mail.com </a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+							<a class="navbar-brand" href="#"><img src="images/logo.png" class="img-fluid" /> </a>
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarNav">
+								<ul class="navbar-nav m-auto menu">
+									<li class="nav-item">
+										<a class="nav-link" href="index.html"> الرئيسية <span class="sr-only">(current)</span></a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="airplane.html"> الطيران</a>
+									</li>
+
+									<li class="nav-item">
+										<a class="nav-link" href="hotels.html"> الفنادق </a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="offers.html"> العروض </a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="contactus.html"> أتصل بنا </a>
+									</li>
+								</ul>
+
+								<div>
+									<a href="registeration.html" class="btn btn-lg btn-info rounded-pill btn-grad font-weight-normal">أنشاء حساب </a>
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+      <!-- <section class="in-banner hotel-details">
+         <div class="container">
+         	<div class="row">
+         		<div class="col-md-12">
+         			<h1 class="text-center header_title font-weight-bold display-4"> حجز فنادق وطيران بأفضل الأسعار
+         			</h1>
+         		</div>
+         	</div>
+         </div>
+         </section> -->
+      <section class="hotel-details">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="owl-carousel owl-theme">
+                  <div class="item">
+                     <img
+                        src="images/p-1.jpg"
+                        class=" img-fluid"
+                        alt=""
+                        srcset=""
+                        >
+                  </div>
+                  <div class="item">
+                     <img
+                        src="images/p-2.jpg"
+                        class=" img-fluid"
+                        alt=""
+                        srcset=""
+                        >
+                  </div>
+                  <div class="item">
+                     <img
+                        src="images/p-3.jpg"
+                        class=" img-fluid"
+                        alt=""
+                        srcset=""
+                        >
+                  </div>
+                  <div class="item">
+                     <img
+                        src="images/p-4.jpg"
+                        class=" img-fluid"
+                        alt=""
+                        srcset=""
+                        >
+                  </div>
+                  <div class="item">
+                     <img
+                        src="images/p-5.jpg"
+                        class=" img-fluid"
+                        alt=""
+                        srcset=""
+                        >
+                  </div>
+               </div>
+            </div>
+         </div>
+         </section>
+         <section class="filter bg-gray">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="search shadow">
+							<form>
+								<div class="form-row">
+									<div class="col-md-3">
+										<i class="fa-solid fa-location-dot"></i>الذهاب إلى
+										<input type="text" class="form-control border-0" placeholder="  الذهاب الي الوجهة او الفنادق" />
+									</div>
+									<div class="col-md-2">
+										<i class="fa-regular fa-calendar"></i> موعد الوصول
+										<input required="" type="text" class="form-control border-0" placeholder="10/4/2023 " onfocus="(this.type='date')" />
+									</div>
+									<div class="col-md-2">
+										<i class="fa-regular fa-calendar"></i> موعد المغادرة
+										<input required="" type="text" class="form-control border-0" placeholder="10/4/2023 " onfocus="(this.type='date')" />
+									</div>
+									<div class="col-md-3">
+										<i class="fa-regular fa-user"></i> مسافرين
+										<input type="text" class="form-control border-0" placeholder="المسافرين " />
+									</div>
+									<div class="col-md-2">
+										<button type="button" class="btn btn-lg btn-info rounded-pill btn-grad btn-block font-weight-normal">أبحث</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+         <section class="hotel-details">
+         <div class="container">
+            <div class="row  ">
+               <div class="col-md-3 bg-white  py-3 ">
+                  <div class="card_img overflow-hidden">
+                     <img
+                        src="images/product.png"
+                        class="img-fluid"
+                        alt=""
+                        srcset=""
+                        >
+                  </div>
+               </div>
+               <div class="col-md-7 bg-white ">
+                  <div class="card-body card-data">
+                     <h3 class="card-title"> منتجع سيزرس بالاس دبي</h3>
+                     <div class="mb-4">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                     </div>
+                     <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        المدينة  ,  تفاصيل العنوان تكتب هنا
+                     </p>
+                  </div>
+               </div>
+               <div class="col-md-2 py-3 text-left ">
+                  <h4 class="price my-4">
+                     27000ج.م
+                  </h4>
+                  <span class="rate">
+                  4.5
+                  </span>
+                  جيد جدا
+               </div>
+            </div>
+
+
+         
+            <div class="row">
+               <div class="col-md-3 flight-filter my-4">
+                  <h3 class="title medium-font">تصفية النتائج</h3>
+                  <div class="content d-flex flex-row justify-content-between align-items-center mb-4">
+                     <p class="m-0">البحث السهل</p>
+                     <button class="button medium-font clear">مسح التصفيات</button>
+                  </div>
+                  <div class="card">
+                     <div class="">
+                        <a class="btn btn-link d-flex justify-content-between mt-2" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                           <h3 class="title medium-font">
+                              نوع السرير
+                           </h3>
+                           <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                     </div>
+                     <div class="collapse show" id="collapseExample">
+                        <div class="card-body p-0 mt-3">
+                           <div class="form-check form-check">
+                              <span class="mr-2">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" />
+                              </span>
+                              <label class="form-check-label" for="inlineCheckbox1">  2 King </label>
+                           </div>
+                           <div class="form-check form-check">
+                              <span class="mr-2">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" />
+                              </span>
+                              <label class="form-check-label" for="inlineCheckbox2"> 1 King</label>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card">
+                     <div class="">
+                        <a class="btn btn-link d-flex justify-content-between mt-2" data-toggle="collapse" href="#collapseExampleroom" role="button" aria-expanded="false" aria-controls="collapseExample">
+                           <h3 class="title medium-font">
+                              نوع الغرفة
+                           </h3>
+                           <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                     </div>
+                     <div class="collapse show" id="collapseExampleroom">
+                        <div class="card-body p-0 mt-3">
+                           <div class="form-check form-check">
+                              <span class="mr-2">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox24" value="option1" />
+                              </span>
+                              <label class="form-check-label" for="inlineCheckbox24">  إقامة فقط   </label>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card">
+                     <div class="">
+                        <a class="btn btn-link d-flex justify-content-between mt-2" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                           <h3 class="title medium-font">
+                              القابلية للاسترداد
+                           </h3>
+                           <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                     </div>
+                     <div class="collapse show" id="collapseExample3">
+                        <div class="card-body p-0 mt-3">
+                           <div class="form-check form-check">
+                              <span class="mr-2">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox24" value="option1" />
+                              </span>
+                              <label class="form-check-label" for="inlineCheckbox24"> تذاكر قابلة للاسترداد </label>
+                           </div>
+                           <div class="form-check form-check">
+                              <span class="mr-2">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox25" value="option2" />
+                              </span>
+                              <label class="form-check-label" for="inlineCheckbox25">تذاكر غير قابلة للاسترداد </label>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card">
+                     <div class="">
+                        <a class="btn btn-link d-flex justify-content-between mt-2" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
+                           <h3 class="title medium-font">
+                              وسائل الراحة فى الغرفة
+                           </h3>
+                           <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                     </div>
+                     <div class="collapse show" id="collapseExample4">
+                        <div class="card-body p-0 mt-3">
+                           <div class="form-check form-check">
+                              <span class="mr-2">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox15" value="option1" />
+                              </span>
+                              <label class="form-check-label" for="inlineCheckbox15">  أثاث مختلف لكل غرفة </label>
+                           </div>
+                           <div class="form-check form-check">
+                              <span class="mr-2">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox22" value="option2" />
+                              </span>
+                              <label class="form-check-label" for="inlineCheckbox22">  تكييف </label>
+                           </div>
+                           <div class="form-check form-check">
+                              <span class="mr-2">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox11" value="option1" />
+                              </span>
+                              <label class="form-check-label" for="inlineCheckbox11">  تنظيف الغرف يوميًا </label>
+                           </div>
+                           <div class="form-check form-check">
+                              <span class="mr-2">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox20" value="option2" />
+                              </span>
+                              <label class="form-check-label" for="inlineCheckbox20">  ثلاجة صغيرة </label>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-9 my-4">
+                  <div class="card-group mb-4">
+                     <div class="card">
+                        <div class="card-body">
+                           <h5 class="card-title">presidential suite
+                           </h5>
+                           <p class="card-text">
+                           <ul class="list-group">
+                              <li class="list-group-item">
+                                 <i class="fa-solid fa-utensils mr-2"></i>
+                                 Restaurant
+                              </li>
+                              <li class="list-group-item">
+                                 <i class="fa-solid fa-umbrella-beach mr-2"></i>
+                                 Coffee
+                              </li>
+                              <li class="list-group-item">
+                                 <i class="fa-solid fa-bell-concierge mr-2"></i>
+                                 Room Service
+                              </li>
+                           </ul>
+                           </p>
+                        </div>
+                     </div>
+                     <div class="card">
+                        <div class="card-body">
+                           <h5 class="card-title"> خياراتك</h5>
+                           <ul class="card-list  my-3">
+                              <li>
+                                 إقامة فقط
+                              </li>
+                              <li>
+                                 قابل للإسترداد
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="card">
+                        <div class="card-body">
+                           <h5 class="card-title">  غرفة / ليلة </h5>
+                           <p class="card-text  my-3">27000 ج.م</p>
+                        </div>
+                     </div>
+                     <div class="card">
+                        <div class="card-body text-center">
+                           <h5 class="card-title text-center">  إجمالى الإقامه 
+                              <span> 1 ليالي</span>
+                           </h5>
+                           <p class="card-text text-center my-3">27000 ج.م</p>
+                           <div class="show-prices-button my-2">
+                              عرض الاسعار
+                           </div>
+                           <span class="payment">متاح بالأقساط</span>
+                        </div>
+                     </div>
+                  </div>
+
+
+                  <div class="card-group mb-4">
+                    <div class="card">
+                       <div class="card-body">
+                          <h5 class="card-title">presidential suite
+                          </h5>
+                          <p class="card-text">
+                          <ul class="list-group">
+                             <li class="list-group-item">
+                                <i class="fa-solid fa-utensils mr-2"></i>
+                                Restaurant
+                             </li>
+                             <li class="list-group-item">
+                                <i class="fa-solid fa-umbrella-beach mr-2"></i>
+                                Coffee
+                             </li>
+                             <li class="list-group-item">
+                                <i class="fa-solid fa-bell-concierge mr-2"></i>
+                                Room Service
+                             </li>
+                          </ul>
+                          </p>
+                       </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-body">
+                          <h5 class="card-title"> خياراتك</h5>
+                          <ul class="card-list  my-3">
+                             <li>
+                                إقامة فقط
+                             </li>
+                             <li>
+                                قابل للإسترداد
+                             </li>
+                          </ul>
+                       </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-body">
+                          <h5 class="card-title">  غرفة / ليلة </h5>
+                          <p class="card-text  my-3">27000 ج.م</p>
+                       </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-body text-center">
+                          <h5 class="card-title text-center">  إجمالى الإقامه 
+                             <span> 1 ليالي</span>
+                          </h5>
+                          <p class="card-text text-center my-3">27000 ج.م</p>
+                          <div class="show-prices-button my-2">
+                             عرض الاسعار
+                          </div>
+                          <span class="payment">متاح بالأقساط</span>
+                       </div>
+                    </div>
+                 </div>
+
+
+                 <div class="card-group mb-4">
+                    <div class="card">
+                       <div class="card-body">
+                          <h5 class="card-title">presidential suite
+                          </h5>
+                          <p class="card-text">
+                          <ul class="list-group">
+                             <li class="list-group-item">
+                                <i class="fa-solid fa-utensils mr-2"></i>
+                                Restaurant
+                             </li>
+                             <li class="list-group-item">
+                                <i class="fa-solid fa-umbrella-beach mr-2"></i>
+                                Coffee
+                             </li>
+                             <li class="list-group-item">
+                                <i class="fa-solid fa-bell-concierge mr-2"></i>
+                                Room Service
+                             </li>
+                          </ul>
+                          </p>
+                       </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-body">
+                          <h5 class="card-title"> خياراتك</h5>
+                          <ul class="card-list  my-3">
+                             <li>
+                                إقامة فقط
+                             </li>
+                             <li>
+                                قابل للإسترداد
+                             </li>
+                          </ul>
+                       </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-body">
+                          <h5 class="card-title">  غرفة / ليلة </h5>
+                          <p class="card-text  my-3">27000 ج.م</p>
+                       </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-body text-center">
+                          <h5 class="card-title text-center">  إجمالى الإقامه 
+                             <span> 1 ليالي</span>
+                          </h5>
+                          <p class="card-text text-center my-3">27000 ج.م</p>
+                          <div class="show-prices-button my-2">
+                             عرض الاسعار
+                          </div>
+                          <span class="payment">متاح بالأقساط</span>
+                       </div>
+                    </div>
+                 </div>
+               </div>
+            </div>
+            <div class="row">
+            </div>
+            <div class="row">
+               <div class="col-md-9 bg-white my-4 py-4">
+                  <div class="">
+                     <h4 class="mb-4">
+                        منتجع سيزرس بالاس دبي
+                     </h4>
+                     <p>
+                        عندما تقيم في سيزارز بالاس بلو ووترز دبي في دبي، ستكون في منشأة متصلة بمركز تسوق، على بُعد 1 دقيقة/دقائق بالسيارة من مرسى دبي و7 دقيقة/دقائق من مركز ابن بطوطة التجاري. الإقامة في منتجع، منشأة تتّسم بتصنيف 5 نجوم،
+                        تضعك على بُعد ٦٫٦ كم من شاطئ جميرا و ٦٫٩ كم من ذا ووك.
+                        <br> <br>
+                        اشعر وكأنك في منزلك عند الإقامة في واحدة من 194 غرفة ضيافة بطراز تأثيث فريد لكل منها، والتي تحتوي على وحدات ميني بار وتلفزيونات إل إي دي. تحتوي الغرف على شرفات.
+                        <br> <br>
+                        تتاح لك اتصال لاسلكي بالإنترنت مجانًا لتبقى على اتصال دائمًا، بالإضافة إلى قنوات باشتراك مدفوع من أجل متعتك. 
+                        تضم الغرف حمامات خاصة بها أحواض استحمام وحجيرات دش منفصلة مع مستلزمات فاخرة للعناية الشخصية ومجففات شعر.
+                     </p>
+                  </div>
+               </div>
+               <div class="col-md-3 my-4">
+                  <div class="p-3 bg-white">
+                     <h4 class="mb-4">
+                        مميزات
+                     </h4>
+                     <ul class="list-group">
+                        <li class="list-group-item">
+                           <i class="fa-solid fa-utensils mr-3"></i>
+                           Restaurant
+                        </li>
+                        <li class="list-group-item">
+                           <i class="fa-solid fa-umbrella-beach mr-3"></i>
+                           Coffee
+                        </li>
+                        <li class="list-group-item">
+                           <i class="fa-solid fa-bell-concierge mr-3"></i>
+                           Room Service
+                        </li>
+                        <li class="list-group-item">
+                           <i class="fa-solid fa-person-swimming mr-3"></i>
+                           Sea
+                        </li>
+                        <li class="list-group-item">
+                           <i class="fa-solid fa-wifi mr-3"></i>
+                           Free Wifi
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section>
+         <div class="container hotels mypadding">
+            <div class="row">
+               <div class="col-md-12 d-flex mb-5">
+                  <div class=" px-1">
+                     <a href="http:// ">
+                     <img
+                        src="images/offer1.jpg"
+                        class="img-fluid"
+                        alt=""
+                        srcset=""
+                        >
+                     </a>
+                  </div>
+                  <div class="px-1">
+                     <a href="http:// ">
+                     <img
+                        src="images/offer2.jpg"
+                        class="img-fluid"
+                        alt=""
+                        srcset=""
+                        >
+                     </a>
+                  </div>
+                  <div class="px-1">
+                     <a href="http:// ">
+                     <img
+                        src="images/offer1.jpg"
+                        class="img-fluid"
+                        alt=""
+                        srcset=""
+                        >
+                     </a>
+                  </div>
+               </div>
+               <div class="col-md-12 text-center">
+                  <span>
+                  أفضل الفنادق
+                  </span>
+                  <h2 class="text-center my-3">
+                     أختار فندقك المفضل
+                  </h2>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer>
+         <div class="container">
+            <div class="row py-5">
+               <div class="col-md-3 py-4">
+                  <img
+                     src="images/logo.png"
+                     class="my-3"
+                     alt=""
+                     srcset=""
+                     >
+                  <p>
+                     لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل
+                  </p>
+               </div>
+               <div class="col-md-3">
+                  <h5 class="py-3">
+                     روابط هامة
+                  </h5>
+                  <ul>
+                     <li>
+                        الرئيسية
+                     </li>
+                     <li>
+                        الطيران
+                     </li>
+                     <li>
+                        الفنادق
+                     </li>
+                     <li>
+                        أتصل بنا
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-md-3">
+                  <h5 class="py-3">
+                     روابط هامة
+                  </h5>
+                  <ul>
+                     <li>
+                        الرئيسية
+                     </li>
+                     <li>
+                        الطيران
+                     </li>
+                     <li>
+                        الفنادق
+                     </li>
+                     <li>
+                        أتصل بنا
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-md-3">
+                  <h5 class="py-3">
+                     روابط هامة
+                  </h5>
+                  <ul>
+                     <li>
+                        الرئيسية
+                     </li>
+                     <li>
+                        الطيران
+                     </li>
+                     <li>
+                        الفنادق
+                     </li>
+                     <li>
+                        أتصل بنا
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-md-12 secfooter py-4">
+               جميع الحقوق محفوظة لترافيك لخدمات التسويق ©2023
+            </div>
+         </div>
+      </footer>
+      <script src="js/jquery-3.5.1.slim.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/jquery-3.5.1.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/wow.min.js"></script>
+      <script src="js/script.js"></script>
+      <script src="https://kit.fontawesome.com/798745816a.js" crossorigin="anonymous"></script>
+      <script src="js/owl.carousel.js"></script>
+      <script>
+         $('.owl-carousel').owlCarousel({
+         	stagePadding: 100,
+         	loop: true,
+         	margin: 10,
+         	nav: true,
+         	dots: false,
+         	responsive: {
+         		0: {
+         			items: 1,
+         			stagePadding: 20,
+         		},
+         		600: {
+         			items: 1
+         		},
+         		1000: {
+         			items: 2
+         		}
+         	}
+         })
+              
+      </script>
+   </body>
+</html>
